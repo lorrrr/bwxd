@@ -10,7 +10,7 @@ var canvas;
 function setup() {
   img = loadImage("asset.png");
    img1 = loadImage("2.png");
-  canvas = createCanvas(windowWidth, windowHeight/3*2);
+  canvas = createCanvas(windowWidth, windowHeight);
   // canvas.parent('sketch-holder');
   // canvas.position(0,0);
   // canvas.style('z-index', '-1');
@@ -68,7 +68,7 @@ function draw() {
 
 function windowResized() {
   
-  resizeCanvas(windowWidth,windowHeight/3*2);
+  resizeCanvas(windowWidth,windowHeight;
   noiseScale = windowWidth;
 
   vertexAmount = random(4, 12);
