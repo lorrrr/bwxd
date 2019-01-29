@@ -60,7 +60,8 @@ function draw() {
   vertex(0, height);
   endShape();
   imageMode(CENTER);
-  image(img,width/2,height/2,2124/5,635/5);
+  if (width>300) {
+  image(img,width/2,height/2,2124/5,635/5);}
   imageMode(CORNER);
   image(img1,10,10,1832/8,251/8);
 }
