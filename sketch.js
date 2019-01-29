@@ -68,7 +68,7 @@ function draw() {
 
 function windowResized() {
   
-  resizeCanvas(windowWidth,windowHeight;
+  resizeCanvas(windowWidth,windowHeight);
   noiseScale = windowWidth;
 
   vertexAmount = random(4, 12);
