@@ -61,9 +61,13 @@ function draw() {
   endShape();
   imageMode(CENTER);
   if (width>800) {
-  image(img,width/2,height/2,2124/5,635/5);}
+  image(img,width/2,height/2,2124/5,635/5);
   imageMode(CORNER);
-  image(img1,10,10,1832/8,251/8);
+  image(img1,10,10,1832/8,251/8);}
+  else{
+    image(img1,width/2,height/2,1832/10,251/10);
+    
+  }
 }
 
 function windowResized() {
